@@ -5,6 +5,7 @@
 <br/>
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=850&lines=Your+2FA+codes%2C+on+your+desktop%2C+fully+offline.;Paste+your+secret%2C+get+your+code.+That%27s+the+whole+app." alt="Typing SVG" />
 <br />
+<br/><br/>
 <img src="src/MainScreen.png" alt="Main Screen Offline 2FA" width="40%"/>
 <br/><br/>
 <br/>
