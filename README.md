@@ -45,6 +45,31 @@ The clever bit: almost every service on earth uses the same standard settings, s
 - 🔒 **Truly offline** — there is no network code in this project. Nothing to leak, nothing to trust
 - 🧠 **Handles the weird ones** — 8-digit codes, alternate hash algorithms, odd time steps: all supported automatically when a service needs them, invisible when it doesn't
 
+## ⬇️ Download Offline2FA
+
+Just want to use Offline2FA? Download the ready-to-run Windows app — no Python, installation, or setup required.
+
+**[Download Offline2FA.exe](https://github.com/Norac-projects/Offline2FA/releases/latest)**  
+Windows • Latest release
+
+### How to run
+- Click **Download Offline2FA.exe** above.
+- Double-click `Offline2FA.exe` to launch.
+- Add your 2FA accounts by pasting a secret key, an `otpauth://` link, or dragging and dropping a screenshot of your setup QR code.
+- Click any account card to instantly copy the fresh code to your clipboard!
+
+💡 **Data Backup Tip:** Because this app is 100% offline, your accounts are saved locally on your PC (`%APPDATA%\Offline2FA\accounts.json`). Be sure to back up this file if you plan to format your computer!
+
+🍎 Using macOS or 🐧 Linux? The `.exe` is Windows-only. See the **Quick Start** section below for running Offline2FA from source.
+
+⚠️ **Windows SmartScreen**  
+Offline2FA is currently unsigned, so Windows may show "Windows protected your PC." If this appears, click **More info** → **Run anyway**. The app is fully open-source and never connects to the internet.
+
+### 🧑‍💻 Developers
+Want to build Offline2FA from source, contribute, or explore the project internals?
+
+Skip the `.exe` and continue to **Quick Start** and **Project Layout**.
+
 ## 🚀 Quick start
 
 ```bash
